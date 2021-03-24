@@ -1,7 +1,8 @@
 FROM ubuntu:14.04
 LABEL maintainer="Jeff Geerling"
 
-ENV pip_packages "ansible"
+#ENV pip_packages "ansible"
+ENV pip_packages "ansible==2.7.0"
 
 # Install dependencies and upgrade Python.
 RUN apt-get update \
