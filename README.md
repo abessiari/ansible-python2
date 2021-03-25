@@ -1,4 +1,8 @@
-# ansible-python2
+## Install using miniconda
+
+To install miniconda go to [url](https://docs.conda.io/en/latest/miniconda.html)
+
+This will install ansible, python and terraform.
 
 conda env create --file dependencies/bare-metal.yml
 
