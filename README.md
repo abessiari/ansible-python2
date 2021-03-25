@@ -10,7 +10,7 @@ conda activate test_purl_obolibrary
 
 conda deactivate
 
-conda env remove test_purl_obolibrary
+conda env remove -n test_purl_obolibrary
 
 terraform -chdir=aws init
 
