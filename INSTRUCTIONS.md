@@ -130,6 +130,12 @@ For static analysis and code coverage:
 mvn clean package sonar:sonar 
 ```
 
+Stop container. Notethis would also remove container since --rm option was used above.
+
+```
+docker stop sonarqube
+```
+
 ## Obtaining `owl-models` and `go-lego.owl`
 
 See [Monarch Ontology](https://github.com/monarch-initiative/monarch-ontology) and use the instructions there to generate a `catalog-v001.xml`.
