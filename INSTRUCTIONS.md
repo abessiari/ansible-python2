@@ -110,7 +110,7 @@ This assumes you are in the `minerva/` directory, which is the parent of `minerv
 curl localhost:6800/`cat minerva-server/src/test/resources/server-test/long-get.txt`
 ```
 
-### Sonarqube: Static analysis and Code Coverage
+### Sonarqube
 
 Run sonarqube server locally using docker and ensure it is up and running by visiting [http://localhost:9000](http://localhost:9000)
 
