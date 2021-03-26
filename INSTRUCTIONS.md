@@ -130,7 +130,7 @@ For static analysis and code coverage:
 mvn clean package sonar:sonar 
 ```
 
-Stopping container. This would also remove container since <i>--rm</i> option was used above.
+Stopping sonarqube docker container. This would remove automatically remove it since <i>--rm</i> option was used above.
 
 ```
 docker stop sonarqube
