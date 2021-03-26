@@ -130,7 +130,7 @@ For static analysis and code coverage:
 mvn clean package sonar:sonar 
 ```
 
-Stop container. Notethis would also remove container since --rm option was used above.
+Stopping container. This would also remove container since <i>--rm</i> option was used above.
 
 ```
 docker stop sonarqube
