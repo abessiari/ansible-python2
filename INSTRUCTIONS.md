@@ -11,6 +11,7 @@
 	- [Running Tests](#running-tests)
 		- [Failing Tests](#failing-tests)
 		- [Quick Test via `curl`](#quick-test-via-curl)
+		- [Sonarqube](#Sonarqube)
 	- [Obtaining `owl-models` and `go-lego.owl`](#obtaining-owl-models-and-go-legoowl)
 		- [Useful source files for learning](#useful-source-files-for-learning)
 	- [Using the Blazegraph model store](#using-the-blazegraph-model-store)
